@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+section {
+  background-image: url("../images/download\ \(1\).jpeg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.form-control {
+  background-color: rgba(255, 255, 255, 0.329);
+  color: #fff;
+}
+.form-control::placeholder{
+  color: rgba(255, 255, 255, 0.416);
+}
+.form-control:focus {
+  outline: 0;
+  box-shadow: none;
+  color: #fff;
+  border: 1px solid white;
+  background-color: rgba(255, 255, 255, 0.329);
+}
+
+.btn-primary {
+  box-shadow: none;
+}
+.btn-primary:focus {
+  border-color: transparent;
+  box-shadow: none;
+}
+.bg-gray {
+  background-color: #2d303d;
+}
+.bg-light-gray {
+  background-color: #323544;
+}
+.color-text{
+  color: #9eaeb9;
+}
+h1{
+  font-size: 4rem;
+}
+.h-30{
+  height: 20.5rem;
+}
